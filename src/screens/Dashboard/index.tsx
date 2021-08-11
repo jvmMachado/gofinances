@@ -77,6 +77,7 @@ export function Dashboard() {
 
         <TransactionsList
           data={cardsData}
+          keyExtractor={item => item.id}
           renderItem={({ item }) => <TransactionCard data={item} />}
         />
       </Transactions>
