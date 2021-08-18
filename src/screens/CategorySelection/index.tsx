@@ -18,17 +18,17 @@ interface Category {
   name: string;
 }
 
-interface CategorySelect {
+interface CategorySelectionProps {
   category: string;
   setCategory: (category: Category) => void;
   closeSelectCategory: () => void;
 };
 
-export function CategorySelect({
+export function CategorySelection({
   category,
   setCategory,
   closeSelectCategory,
-}: CategorySelect) {
+}: CategorySelectionProps) {
   return (
     <Container>
       <Header>

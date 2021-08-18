@@ -6,11 +6,11 @@ import {
   Icon,
 } from './styles';
 
-interface CategorySelectProps {
+interface CategorySelectButtonProps {
   title: string;
 }
 
-export function CategorySelect({ title }: CategorySelectProps) {
+export function CategorySelectButton({ title }: CategorySelectButtonProps) {
   return (
     <Container>
       <Title>{title}</Title>
