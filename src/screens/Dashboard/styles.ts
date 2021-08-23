@@ -35,7 +35,7 @@ export const UserWrapper = styled.View`
 `;
 
 export const UserInfo = styled.View`
-  
+  flex-direction: row;
 `;
 
 export const Photo = styled.Image`
